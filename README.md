@@ -33,7 +33,7 @@ Confira o código feito e mais informações logo abaixo :]
 <img src="https://github.com/codinGloria/projetoSecreto/assets/64878674/5b2cda9b-58b1-4a47-8343-92560793a9dd" width="400" height="200">
 
 ## Tecnologias Utilizadas
-- Java 11
-- JavaFX 16
+- Java 21
+- JavaFX 21
 - Hibernate 5.6 (JPA)
 - MySQL 8 (Banco de Dados)
