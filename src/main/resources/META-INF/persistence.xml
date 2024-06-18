@@ -7,7 +7,7 @@
     <persistence-unit name="testeProthera" transaction-type="RESOURCE_LOCAL">
         <properties>
             <property name="javax.persistence.jdbc.url"
-                      value="jdbc:mysql://127.0.0.1:3306/testeprother?useSSL=false&amp;createDatabaseIfNotExist=true&amp;useTimezone=true&amp;serverTimezone=America/Sao_Paulo" />
+                      value="jdbc:mysql://127.0.0.1:3306/testeprothera?allowPublicKeyRetrieval=true&amp;useSSL=false&amp;createDatabaseIfNotExist=true&amp;useTimezone=true&amp;serverTimezone=America/Sao_Paulo" />
 
             <property name="javax.persistence.jdbc.driver"
                       value="com.mysql.cj.jdbc.Driver" />
