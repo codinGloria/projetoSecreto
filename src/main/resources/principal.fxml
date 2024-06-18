@@ -12,9 +12,9 @@
 <?import javafx.scene.layout.RowConstraints?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="312.0" prefWidth="666.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.PrincipalController">
+<AnchorPane prefHeight="352.0" prefWidth="666.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.PrincipalController">
    <children>
-      <GridPane layoutX="333.0" layoutY="14.0" prefHeight="30.0" prefWidth="202.0">
+      <GridPane layoutX="261.0" layoutY="14.0" prefHeight="30.0" prefWidth="311.0">
         <columnConstraints>
             <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
         </columnConstraints>
@@ -22,14 +22,14 @@
           <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
         </rowConstraints>
          <children>
-            <Label prefHeight="38.0" prefWidth="203.0" style="-fx-font-weight: bold;" text="Teste Prático - Prothera" textAlignment="CENTER" textFill="#006769">
+            <Label prefHeight="30.0" prefWidth="310.0" style="-fx-font-weight: bold;" text="Teste Prático - Prothera / Projedata" textAlignment="CENTER" textFill="#006769">
                <font>
                   <Font name="Century Gothic" size="18.0" />
                </font>
             </Label>
          </children>
       </GridPane>
-      <TableView fx:id="tableView" layoutX="221.0" layoutY="53.0" prefHeight="246.0" prefWidth="425.0">
+      <TableView fx:id="tableView" layoutX="221.0" layoutY="53.0" prefHeight="289.0" prefWidth="426.0">
         <columns>
           <TableColumn fx:id="colId" prefWidth="29.5999755859375" text="ID" />
           <TableColumn fx:id="colNome" prefWidth="100.0" text="Nome" />
@@ -38,15 +38,15 @@
             <TableColumn fx:id="colFuncao" prefWidth="101.60000000000002" text="Função" />
         </columns>
       </TableView>
-      <AnchorPane prefHeight="314.0" prefWidth="202.0" style="-fx-background-color: #9DDE8B;">
+      <AnchorPane prefHeight="352.0" prefWidth="202.0" style="-fx-background-color: #9DDE8B;">
          <children>
-            <Button fx:id="btnAumentoSalario" accessibleRole="MENU" alignment="BASELINE_CENTER" layoutX="16.0" layoutY="126.0" mnemonicParsing="false" onAction="#aumentoSalario" prefHeight="30.0" prefWidth="170.0" style="-fx-background-radius: 30; -fx-background-insets: 0,1,2,3,0; -fx-font-size: 12; -fx-background-color: linear-gradient(#40A578, #006769); -fx-font-weight: bold;" text="Aumento de salários" textFill="WHITE" />
+            <Button fx:id="btnAumentoSalario" accessibleRole="MENU" alignment="BASELINE_CENTER" layoutX="16.0" layoutY="145.0" mnemonicParsing="false" onAction="#aumentoSalario" prefHeight="30.0" prefWidth="170.0" style="-fx-background-radius: 30; -fx-background-insets: 0,1,2,3,0; -fx-font-size: 12; -fx-background-color: linear-gradient(#40A578, #006769); -fx-font-weight: bold;" text="Aumento de salários" textFill="WHITE" />
             <Label alignment="TOP_LEFT" contentDisplay="CENTER" layoutX="65.0" layoutY="22.0">
                <font>
                   <Font size="14.0" />
                </font>
             </Label>
-            <MenuButton alignment="BASELINE_CENTER" layoutX="16.0" layoutY="89.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="170.0" style="-fx-background-radius: 30; -fx-background-insets: 0,1,2,3,0; -fx-font-size: 12; -fx-background-color: linear-gradient(#40A578, #006769); -fx-font-weight: bold;" text="Listar" textAlignment="CENTER" textFill="WHITE">
+            <MenuButton alignment="BASELINE_CENTER" layoutX="16.0" layoutY="104.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="170.0" style="-fx-background-radius: 30; -fx-background-insets: 0,1,2,3,0; -fx-font-size: 12; -fx-background-color: linear-gradient(#40A578, #006769); -fx-font-weight: bold;" text="Listar" textAlignment="CENTER" textFill="WHITE">
                <items>
                   <MenuItem fx:id="btnListarTudo" mnemonicParsing="false" onAction="#listarTudo" text="Tudo" />
                   <MenuItem fx:id="btnListASC" mnemonicParsing="false" onAction="#listarASC" text="Ordem alfabética" />
@@ -57,12 +57,12 @@
                   <Font name="Century Gothic" size="14.0" />
                </font>
             </MenuButton>
-            <Button fx:id="btnAniversariantes" alignment="BASELINE_CENTER" layoutX="16.0" layoutY="162.0" mnemonicParsing="false" onAction="#aniversariantes" style="-fx-background-radius: 30; -fx-background-insets: 0,1,2,3,0; -fx-font-size: 12; -fx-background-color: linear-gradient(#40A578, #006769); -fx-font-weight: bold;" text="Aniversariantes (Out e Dez)" textFill="WHITE" />
-            <Button fx:id="btnMaisVelho" alignment="BASELINE_CENTER" layoutX="16.0" layoutY="193.0" mnemonicParsing="false" onAction="#maisVelho" prefHeight="30.0" prefWidth="170.0" style="-fx-background-radius: 30; -fx-background-insets: 0,1,2,3,0; -fx-font-size: 12; -fx-background-color: linear-gradient(#40A578, #006769); -fx-font-weight: bold;" text="Funcionário mais velho" textFill="WHITE" />
-            <Button fx:id="btnTotalSalario" alignment="BASELINE_CENTER" layoutX="16.0" layoutY="230.0" mnemonicParsing="false" onAction="#totalSalario" prefHeight="30.0" prefWidth="170.0" style="-fx-background-radius: 30; -fx-background-insets: 0,1,2,3,0; -fx-font-size: 12; -fx-background-color: linear-gradient(#40A578, #006769); -fx-font-weight: bold;" text="Total do salário" textFill="WHITE" />
-            <Button fx:id="btnQntdSalarios" alignment="BASELINE_CENTER" layoutX="16.0" layoutY="266.0" mnemonicParsing="false" onAction="#qntdSalarios" prefHeight="30.0" prefWidth="170.0" style="-fx-background-radius: 30; -fx-background-insets: 0,1,2,3,0; -fx-font-size: 12; -fx-background-color: linear-gradient(#40A578, #006769); -fx-font-weight: bold;" text="Qntd de salários mínimo" textFill="WHITE" />
+            <Button fx:id="btnAniversariantes" alignment="BASELINE_CENTER" layoutX="16.0" layoutY="186.0" mnemonicParsing="false" onAction="#aniversariantes" style="-fx-background-radius: 30; -fx-background-insets: 0,1,2,3,0; -fx-font-size: 12; -fx-background-color: linear-gradient(#40A578, #006769); -fx-font-weight: bold;" text="Aniversariantes (Out e Dez)" textFill="WHITE" />
+            <Button fx:id="btnMaisVelho" alignment="BASELINE_CENTER" layoutX="16.0" layoutY="224.0" mnemonicParsing="false" onAction="#maisVelho" prefHeight="30.0" prefWidth="170.0" style="-fx-background-radius: 30; -fx-background-insets: 0,1,2,3,0; -fx-font-size: 12; -fx-background-color: linear-gradient(#40A578, #006769); -fx-font-weight: bold;" text="Funcionário mais velho" textFill="WHITE" />
+            <Button fx:id="btnTotalSalario" alignment="BASELINE_CENTER" layoutX="16.0" layoutY="264.0" mnemonicParsing="false" onAction="#totalSalario" prefHeight="30.0" prefWidth="170.0" style="-fx-background-radius: 30; -fx-background-insets: 0,1,2,3,0; -fx-font-size: 12; -fx-background-color: linear-gradient(#40A578, #006769); -fx-font-weight: bold;" text="Total do salário" textFill="WHITE" />
+            <Button fx:id="btnQntdSalarios" alignment="BASELINE_CENTER" layoutX="16.0" layoutY="307.0" mnemonicParsing="false" onAction="#qntdSalarios" prefHeight="30.0" prefWidth="170.0" style="-fx-background-radius: 30; -fx-background-insets: 0,1,2,3,0; -fx-font-size: 12; -fx-background-color: linear-gradient(#40A578, #006769); -fx-font-weight: bold;" text="Qntd de salários mínimo" textFill="WHITE" />
             <Button fx:id="btnCadastrar" accessibleRole="MENU" alignment="BASELINE_CENTER" layoutX="16.0" layoutY="17.0" mnemonicParsing="false" onAction="#cadastrar" prefHeight="30.0" prefWidth="170.0" style="-fx-background-radius: 30; -fx-background-insets: 0,1,2,3,0; -fx-font-size: 12; -fx-background-color: linear-gradient(#40A578, #006769); -fx-font-weight: bold;" text="Cadastrar" textFill="WHITE" />
-            <Button fx:id="btnRemover" accessibleRole="MENU" alignment="BASELINE_CENTER" layoutX="16.0" layoutY="53.0" mnemonicParsing="false" onAction="#remover" prefHeight="30.0" prefWidth="170.0" style="-fx-background-radius: 30; -fx-background-insets: 0,1,2,3,0; -fx-font-size: 12; -fx-background-color: linear-gradient(#40A578, #006769); -fx-font-weight: bold;" text="Remover" textFill="WHITE" />
+            <Button fx:id="btnRemover" accessibleRole="MENU" alignment="BASELINE_CENTER" layoutX="16.0" layoutY="62.0" mnemonicParsing="false" onAction="#remover" prefHeight="30.0" prefWidth="170.0" style="-fx-background-radius: 30; -fx-background-insets: 0,1,2,3,0; -fx-font-size: 12; -fx-background-color: linear-gradient(#40A578, #006769); -fx-font-weight: bold;" text="Remover" textFill="WHITE" />
          </children>
       </AnchorPane>
    </children>
