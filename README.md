@@ -19,7 +19,7 @@ Confira o código feito e mais informações logo abaixo :]
 
 ## Imagens do projeto
 
-<img src="https://github.com/codinGloria/projetoSecreto/assets/64878674/b6cf9e3d-c415-4eff-bb66-eac7876f3fac" width="500" height="300">
+<img src="https://github.com/codinGloria/projetoSecreto/assets/64878674/d02da101-4ac3-4856-b241-8affd1377a10" width="500" height="300">
 <img src="https://github.com/codinGloria/projetoSecreto/assets/64878674/4276d43f-1f6e-4b67-89f3-55b1637dcd06" width="500" height="300">
 <img src="https://github.com/codinGloria/projetoSecreto/assets/64878674/9ad89433-b357-46eb-9253-414b7f5fa1c3" width="500" height="300">
 <img src="https://github.com/codinGloria/projetoSecreto/assets/64878674/962854fc-3c51-41d9-a993-eedd064731d3" width="500" height="300">
